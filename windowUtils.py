@@ -30,7 +30,6 @@ def findFullscreenApp():
 
 def getWindows():
     windows = Desktop(backend="uia").windows()
-    print([w.window_text() for w in windows])
     return windows
 
 
